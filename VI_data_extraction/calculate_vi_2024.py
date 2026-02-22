@@ -106,7 +106,7 @@ def main():
 
     # Filter to 2024 only
     df["TradDt"] = pd.to_datetime(df["TradDt"])
-    df_2024 = df[df["TradDt"].dt.year == 2024].copy()
+    df_2024 = df[df["TradDt"].dt.year == 2026].copy()
     del df  # free memory
     print(f"   Rows for 2024: {len(df_2024):,}")
 

@@ -33,7 +33,7 @@ except ImportError:
     ChromeDriverManager = None
 
 # ── Configuration ───────────────────────────────────────────────────────────
-START_DATE = date(2024, 8, 1)
+START_DATE = date(2026, 1, 1)
 END_DATE = date(2026, 2, 12)
 CHUNK_DAYS = 90  # Safe chunk size for NSE date range limit
 

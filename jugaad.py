@@ -1,8 +1,8 @@
 from datetime import date, timedelta
 from jugaad_data.nse import bhavcopy_fo_save
 
-save_location = "D:/antigravity/option_data/"
-start_date = date(2024, 8, 1)
+save_location = "D:/Antigravity/option_data"
+start_date = date(2026, 1, 1)
 end_date = date(2026, 2, 12)
 
 current = start_date

@@ -3,8 +3,8 @@ import os
 import glob
 
 # Paths
-raw_dir = "D:/antigravity/option_data/"
-clean_dir = "D:/antigravity/option_data/clean_data/"
+raw_dir = "D:/Antigravity/option_data/"
+clean_dir = "D:/Antigravity/option_data/clean_data/"
 
 os.makedirs(clean_dir, exist_ok=True)
 
